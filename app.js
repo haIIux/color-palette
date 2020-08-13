@@ -273,7 +273,7 @@ function savePalette(e) {
   if (paletteObjects) {
     paletteNr = paletteObjects.length;
   } else {
-    paletteNr = savedPalettes;
+    paletteNr = savedPalettes.length;
   }
 
   const paletteObj = { name, colors, nr: paletteNr };
